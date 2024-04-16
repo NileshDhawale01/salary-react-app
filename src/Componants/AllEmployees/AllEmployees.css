@@ -1,23 +1,42 @@
-.mainbody {
-    top: 85px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 18vw;
-    width: 80vw;
-    background-color: beige;
+.employees{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+/* Employee List Container */
+.employee-list-container {
+    width: 80%;
+    margin: 20px auto;
 }
 
-.boxes {
-    position: relative;
-    display: inline-block;
-    width: 15vw;
-    height: 25vh;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 8px;
-    left: 5vw;
-    margin: 15px;
-   
+/* Employee List */
+.employee-list {
+    list-style: none;
+    padding: 0;
+    width: 80vw;
+}
+
+/* Employee Item */
+.employee-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Employee Details */
+.employee-details {
+    padding: 15px;
+}
+
+/* Employee Name */
+.employee-name {
+    margin: 0;
+    color: #333;
+}
+
+/* Employee Info */
+.employee-info {
+    margin: 5px 0;
+    color: #555;
 }

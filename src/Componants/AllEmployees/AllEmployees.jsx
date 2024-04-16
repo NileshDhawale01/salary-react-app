@@ -3,24 +3,25 @@ import './AllEmployees.css'
 
 function AllEmployees() {
   return (
-    <div className="mainbody">
-       <div id="optn1" className="boxes"></div>
-       <div id="optn2" className="boxes"></div>
-       <div id="optn3" className="boxes"></div>
-       <div id="optn4" className="boxes"></div>
-       <div id="optn5" className="boxes"></div>
-       <div id="optn6" className="boxes"></div>
-       <div id="optn7" className="boxes"></div>
-       <div id="optn8" className="boxes"></div>
-       <div id="optn1" className="boxes"></div>
-       <div id="optn2" className="boxes"></div>
-       <div id="optn3" className="boxes"></div>
-       <div id="optn4" className="boxes"></div>
-       <div id="optn5" className="boxes"></div>
-       <div id="optn6" className="boxes"></div>
-       <div id="optn7" className="boxes"></div>
-       <div id="optn8" className="boxes"></div>
-
+    <div className='employees'>
+      <div classNameName="employee-list-container">
+        <ul className="employee-list">
+          <li className="employee-item">
+            <div className="employee-details">
+              <h3 className="employee-name">John Doe</h3>
+              <p className="employee-email">john.doe@example.com</p>
+              <p className="employee-department">Department: IT</p>
+            </div>
+          </li>
+          <li className="employee-item">
+            <div className="employee-details">
+              <h3 className="employee-name">Jane Smith</h3>
+              <p className="employee-email">jane.smith@example.com</p>
+              <p className="employee-department">Department: HR</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }

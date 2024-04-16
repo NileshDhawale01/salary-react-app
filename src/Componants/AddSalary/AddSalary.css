@@ -1,0 +1,78 @@
+/* Form Container */
+.salaey-form-container {
+    width: 300px;
+    /* Adjust width as needed */
+    margin: 110px auto;
+    /* Center the form horizontally */
+    padding: 20px;
+    background-color: #fff;
+    /* White background */
+    border: 1px solid #e0e0e0;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    font-family: Arial, sans-serif;
+}
+
+/* Form Head */
+.salaey-form-head {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.salaey-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Data */
+.salaey-form-data {
+    margin-bottom: 15px;
+}
+
+.salaey-form-data input[type='datetime-local'],
+.salaey-form-data input[type='number'] {
+    width: 96%;
+    /* Make input fields full width */
+    padding: 10px;
+    /* Add padding */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 3px;
+    /* Rounded corners */
+    font-size: 14px;
+}
+
+/* Form Data Label */
+.salaey-form-data label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Submit Button */
+.salaey-form-submit {
+    width: 100%;
+    /* Make button full width */
+    padding: 10px;
+    /* Add padding */
+    background-color: #673ab7;
+    /* Purple background */
+    color: #fff;
+    /* White text color */
+    border: none;
+    border-radius: 3px;
+    /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.salaey-form-submit:hover {
+    background-color: #512da8;
+    /* Darker purple background on hover */
+}
